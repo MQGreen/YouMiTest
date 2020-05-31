@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48FCDABC24839A9D00389FD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDABB24839A9D00389FD9 /* AppDelegate.m */; };
+		48FCDAC724839AA200389FD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FCDAC624839AA200389FD9 /* Assets.xcassets */; };
+		48FCDACA24839AA200389FD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48FCDAC824839AA200389FD9 /* LaunchScreen.storyboard */; };
+		48FCDACD24839AA200389FD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDACC24839AA200389FD9 /* main.m */; };
+		48FCDAD524839BDA00389FD9 /* MQRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDAD424839BDA00389FD9 /* MQRootViewController.m */; };
+		48FCDAF024839F0E00389FD9 /* MQBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDAD724839F0E00389FD9 /* MQBaseRequest.m */; };
+		48FCDAF124839F0E00389FD9 /* MQBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDAD924839F0E00389FD9 /* MQBaseVC.m */; };
+		48FCDAF224839F0E00389FD9 /* MQBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDADB24839F0E00389FD9 /* MQBaseModel.m */; };
+		48FCDAF324839F0E00389FD9 /* MQProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDADE24839F0E00389FD9 /* MQProgressHUD.m */; };
+		48FCDAF424839F0E00389FD9 /* UIScrollView+RefreshEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDAE524839F0E00389FD9 /* UIScrollView+RefreshEx.m */; };
+		48FCDAF524839F0E00389FD9 /* UILabel+Title.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDAE824839F0E00389FD9 /* UILabel+Title.m */; };
+		48FCDAF624839F0E00389FD9 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDAEC24839F0E00389FD9 /* UIColor+Addition.m */; };
+		48FCDAF724839F0E00389FD9 /* NSString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDAEE24839F0E00389FD9 /* NSString+Safe.m */; };
+		48FCDAFF2483A10600389FD9 /* MQMessageListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDAFE2483A10600389FD9 /* MQMessageListVC.m */; };
+		48FCDB022483A38B00389FD9 /* MQGetMessageApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDB012483A38B00389FD9 /* MQGetMessageApi.m */; };
+		48FCDB052483A73C00389FD9 /* MQMessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDB042483A73C00389FD9 /* MQMessageModel.m */; };
+		48FCDB082483AA6500389FD9 /* MQSendMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDB072483AA6500389FD9 /* MQSendMessageVC.m */; };
+		48FCDB0B2483B0D500389FD9 /* MQSendMessageApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 48FCDB0A2483B0D500389FD9 /* MQSendMessageApi.m */; };
+		A45CA829648271E95362B1B2 /* libPods-MQYouMiDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE436FA26040915310672A3 /* libPods-MQYouMiDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48FCDAB724839A9D00389FD9 /* MQYouMiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQYouMiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48FCDABA24839A9D00389FD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48FCDABB24839A9D00389FD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48FCDAC624839AA200389FD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48FCDAC924839AA200389FD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48FCDACB24839AA200389FD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48FCDACC24839AA200389FD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48FCDAD324839BDA00389FD9 /* MQRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQRootViewController.h; sourceTree = "<group>"; };
+		48FCDAD424839BDA00389FD9 /* MQRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQRootViewController.m; sourceTree = "<group>"; };
+		48FCDAD724839F0E00389FD9 /* MQBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQBaseRequest.m; sourceTree = "<group>"; };
+		48FCDAD824839F0E00389FD9 /* MQBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQBaseModel.h; sourceTree = "<group>"; };
+		48FCDAD924839F0E00389FD9 /* MQBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQBaseVC.m; sourceTree = "<group>"; };
+		48FCDADA24839F0E00389FD9 /* MQBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQBaseRequest.h; sourceTree = "<group>"; };
+		48FCDADB24839F0E00389FD9 /* MQBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQBaseModel.m; sourceTree = "<group>"; };
+		48FCDADC24839F0E00389FD9 /* MQBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQBaseVC.h; sourceTree = "<group>"; };
+		48FCDADE24839F0E00389FD9 /* MQProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQProgressHUD.m; sourceTree = "<group>"; };
+		48FCDADF24839F0E00389FD9 /* MQProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQProgressHUD.h; sourceTree = "<group>"; };
+		48FCDAE124839F0E00389FD9 /* YouMiHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouMiHeader.h; sourceTree = "<group>"; };
+		48FCDAE224839F0E00389FD9 /* YouMiPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouMiPrefixHeader.pch; sourceTree = "<group>"; };
+		48FCDAE524839F0E00389FD9 /* UIScrollView+RefreshEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+RefreshEx.m"; sourceTree = "<group>"; };
+		48FCDAE624839F0E00389FD9 /* UIScrollView+RefreshEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+RefreshEx.h"; sourceTree = "<group>"; };
+		48FCDAE824839F0E00389FD9 /* UILabel+Title.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Title.m"; sourceTree = "<group>"; };
+		48FCDAE924839F0E00389FD9 /* UILabel+Title.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Title.h"; sourceTree = "<group>"; };
+		48FCDAEB24839F0E00389FD9 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		48FCDAEC24839F0E00389FD9 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		48FCDAEE24839F0E00389FD9 /* NSString+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Safe.m"; sourceTree = "<group>"; };
+		48FCDAEF24839F0E00389FD9 /* NSString+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Safe.h"; sourceTree = "<group>"; };
+		48FCDAFD2483A10600389FD9 /* MQMessageListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQMessageListVC.h; sourceTree = "<group>"; };
+		48FCDAFE2483A10600389FD9 /* MQMessageListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQMessageListVC.m; sourceTree = "<group>"; };
+		48FCDB002483A38B00389FD9 /* MQGetMessageApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQGetMessageApi.h; sourceTree = "<group>"; };
+		48FCDB012483A38B00389FD9 /* MQGetMessageApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQGetMessageApi.m; sourceTree = "<group>"; };
+		48FCDB032483A73C00389FD9 /* MQMessageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQMessageModel.h; sourceTree = "<group>"; };
+		48FCDB042483A73C00389FD9 /* MQMessageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQMessageModel.m; sourceTree = "<group>"; };
+		48FCDB062483AA6500389FD9 /* MQSendMessageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQSendMessageVC.h; sourceTree = "<group>"; };
+		48FCDB072483AA6500389FD9 /* MQSendMessageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQSendMessageVC.m; sourceTree = "<group>"; };
+		48FCDB092483B0D500389FD9 /* MQSendMessageApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQSendMessageApi.h; sourceTree = "<group>"; };
+		48FCDB0A2483B0D500389FD9 /* MQSendMessageApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQSendMessageApi.m; sourceTree = "<group>"; };
+		4BE436FA26040915310672A3 /* libPods-MQYouMiDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MQYouMiDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8566571669FF3583B0D80C /* Pods-MQYouMiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQYouMiDemo.release.xcconfig"; path = "Target Support Files/Pods-MQYouMiDemo/Pods-MQYouMiDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A1B2C91E72884E0FBAC48CAE /* Pods-MQYouMiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQYouMiDemo.debug.xcconfig"; path = "Target Support Files/Pods-MQYouMiDemo/Pods-MQYouMiDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48FCDAB424839A9D00389FD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A45CA829648271E95362B1B2 /* libPods-MQYouMiDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13CD03EBB9450C57013D7B95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BE436FA26040915310672A3 /* libPods-MQYouMiDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48FCDAAE24839A9D00389FD9 = {
+			isa = PBXGroup;
+			children = (
+				48FCDAB924839A9D00389FD9 /* MQYouMiDemo */,
+				48FCDAB824839A9D00389FD9 /* Products */,
+				F59E4366AD97D76BAEFEEB59 /* Pods */,
+				13CD03EBB9450C57013D7B95 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48FCDAB824839A9D00389FD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48FCDAB724839A9D00389FD9 /* MQYouMiDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48FCDAB924839A9D00389FD9 /* MQYouMiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				48FCDAD624839F0E00389FD9 /* Base */,
+				48FCDAE324839F0E00389FD9 /* Category */,
+				48FCDADD24839F0E00389FD9 /* Tool */,
+				48FCDAF82483A0A900389FD9 /* Modules */,
+				48FCDABA24839A9D00389FD9 /* AppDelegate.h */,
+				48FCDABB24839A9D00389FD9 /* AppDelegate.m */,
+				48FCDAC624839AA200389FD9 /* Assets.xcassets */,
+				48FCDAC824839AA200389FD9 /* LaunchScreen.storyboard */,
+				48FCDACB24839AA200389FD9 /* Info.plist */,
+				48FCDACC24839AA200389FD9 /* main.m */,
+				48FCDAE024839F0E00389FD9 /* Header */,
+			);
+			path = MQYouMiDemo;
+			sourceTree = "<group>";
+		};
+		48FCDAD624839F0E00389FD9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				48FCDAD824839F0E00389FD9 /* MQBaseModel.h */,
+				48FCDADB24839F0E00389FD9 /* MQBaseModel.m */,
+				48FCDADC24839F0E00389FD9 /* MQBaseVC.h */,
+				48FCDAD924839F0E00389FD9 /* MQBaseVC.m */,
+				48FCDADA24839F0E00389FD9 /* MQBaseRequest.h */,
+				48FCDAD724839F0E00389FD9 /* MQBaseRequest.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		48FCDADD24839F0E00389FD9 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				48FCDADE24839F0E00389FD9 /* MQProgressHUD.m */,
+				48FCDADF24839F0E00389FD9 /* MQProgressHUD.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		48FCDAE024839F0E00389FD9 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				48FCDAE124839F0E00389FD9 /* YouMiHeader.h */,
+				48FCDAE224839F0E00389FD9 /* YouMiPrefixHeader.pch */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		48FCDAE324839F0E00389FD9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				48FCDAE424839F0E00389FD9 /* UIScrollView */,
+				48FCDAE724839F0E00389FD9 /* UILabel */,
+				48FCDAEA24839F0E00389FD9 /* UIcolor */,
+				48FCDAED24839F0E00389FD9 /* NSString */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		48FCDAE424839F0E00389FD9 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				48FCDAE524839F0E00389FD9 /* UIScrollView+RefreshEx.m */,
+				48FCDAE624839F0E00389FD9 /* UIScrollView+RefreshEx.h */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		48FCDAE724839F0E00389FD9 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				48FCDAE824839F0E00389FD9 /* UILabel+Title.m */,
+				48FCDAE924839F0E00389FD9 /* UILabel+Title.h */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		48FCDAEA24839F0E00389FD9 /* UIcolor */ = {
+			isa = PBXGroup;
+			children = (
+				48FCDAEB24839F0E00389FD9 /* UIColor+Addition.h */,
+				48FCDAEC24839F0E00389FD9 /* UIColor+Addition.m */,
+			);
+			path = UIcolor;
+			sourceTree = "<group>";
+		};
+		48FCDAED24839F0E00389FD9 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				48FCDAEE24839F0E00389FD9 /* NSString+Safe.m */,
+				48FCDAEF24839F0E00389FD9 /* NSString+Safe.h */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		48FCDAF82483A0A900389FD9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				48FCDAFC2483A0A900389FD9 /* Request */,
+				48FCDAFA2483A0A900389FD9 /* Model */,
+				48FCDAFB2483A0A900389FD9 /* View */,
+				48FCDAF92483A0A900389FD9 /* Controller */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		48FCDAF92483A0A900389FD9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48FCDAD324839BDA00389FD9 /* MQRootViewController.h */,
+				48FCDAD424839BDA00389FD9 /* MQRootViewController.m */,
+				48FCDAFD2483A10600389FD9 /* MQMessageListVC.h */,
+				48FCDAFE2483A10600389FD9 /* MQMessageListVC.m */,
+				48FCDB062483AA6500389FD9 /* MQSendMessageVC.h */,
+				48FCDB072483AA6500389FD9 /* MQSendMessageVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48FCDAFA2483A0A900389FD9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48FCDB032483A73C00389FD9 /* MQMessageModel.h */,
+				48FCDB042483A73C00389FD9 /* MQMessageModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		48FCDAFB2483A0A900389FD9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48FCDAFC2483A0A900389FD9 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				48FCDB002483A38B00389FD9 /* MQGetMessageApi.h */,
+				48FCDB012483A38B00389FD9 /* MQGetMessageApi.m */,
+				48FCDB092483B0D500389FD9 /* MQSendMessageApi.h */,
+				48FCDB0A2483B0D500389FD9 /* MQSendMessageApi.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F59E4366AD97D76BAEFEEB59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C91E72884E0FBAC48CAE /* Pods-MQYouMiDemo.debug.xcconfig */,
+				4E8566571669FF3583B0D80C /* Pods-MQYouMiDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48FCDAB624839A9D00389FD9 /* MQYouMiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48FCDAD024839AA200389FD9 /* Build configuration list for PBXNativeTarget "MQYouMiDemo" */;
+			buildPhases = (
+				CF9041BD33039B8624C1ADE3 /* [CP] Check Pods Manifest.lock */,
+				48FCDAB324839A9D00389FD9 /* Sources */,
+				48FCDAB424839A9D00389FD9 /* Frameworks */,
+				48FCDAB524839A9D00389FD9 /* Resources */,
+				F398700BD31BCE12D1536B02 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQYouMiDemo;
+			productName = MQYouMiDemo;
+			productReference = 48FCDAB724839A9D00389FD9 /* MQYouMiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48FCDAAF24839A9D00389FD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Twist;
+				TargetAttributes = {
+					48FCDAB624839A9D00389FD9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 48FCDAB224839A9D00389FD9 /* Build configuration list for PBXProject "MQYouMiDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48FCDAAE24839A9D00389FD9;
+			productRefGroup = 48FCDAB824839A9D00389FD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48FCDAB624839A9D00389FD9 /* MQYouMiDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48FCDAB524839A9D00389FD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48FCDACA24839AA200389FD9 /* LaunchScreen.storyboard in Resources */,
+				48FCDAC724839AA200389FD9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF9041BD33039B8624C1ADE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MQYouMiDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F398700BD31BCE12D1536B02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MQYouMiDemo/Pods-MQYouMiDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MQYouMiDemo/Pods-MQYouMiDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MQYouMiDemo/Pods-MQYouMiDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48FCDAB324839A9D00389FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48FCDAFF2483A10600389FD9 /* MQMessageListVC.m in Sources */,
+				48FCDAF024839F0E00389FD9 /* MQBaseRequest.m in Sources */,
+				48FCDAF324839F0E00389FD9 /* MQProgressHUD.m in Sources */,
+				48FCDAF424839F0E00389FD9 /* UIScrollView+RefreshEx.m in Sources */,
+				48FCDB0B2483B0D500389FD9 /* MQSendMessageApi.m in Sources */,
+				48FCDB082483AA6500389FD9 /* MQSendMessageVC.m in Sources */,
+				48FCDAF724839F0E00389FD9 /* NSString+Safe.m in Sources */,
+				48FCDB052483A73C00389FD9 /* MQMessageModel.m in Sources */,
+				48FCDABC24839A9D00389FD9 /* AppDelegate.m in Sources */,
+				48FCDAD524839BDA00389FD9 /* MQRootViewController.m in Sources */,
+				48FCDACD24839AA200389FD9 /* main.m in Sources */,
+				48FCDAF224839F0E00389FD9 /* MQBaseModel.m in Sources */,
+				48FCDAF524839F0E00389FD9 /* UILabel+Title.m in Sources */,
+				48FCDAF124839F0E00389FD9 /* MQBaseVC.m in Sources */,
+				48FCDAF624839F0E00389FD9 /* UIColor+Addition.m in Sources */,
+				48FCDB022483A38B00389FD9 /* MQGetMessageApi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48FCDAC824839AA200389FD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48FCDAC924839AA200389FD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48FCDACE24839AA200389FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		48FCDACF24839AA200389FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48FCDAD124839AA200389FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B2C91E72884E0FBAC48CAE /* Pods-MQYouMiDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK6PGST4CN;
+				GCC_PREFIX_HEADER = "${SRCROOT}/MQYouMiDemo/Header/YouMiPrefixHeader.pch";
+				INFOPLIST_FILE = MQYouMiDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YouMi.MQYouMiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		48FCDAD224839AA200389FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E8566571669FF3583B0D80C /* Pods-MQYouMiDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK6PGST4CN;
+				GCC_PREFIX_HEADER = "${SRCROOT}/MQYouMiDemo/Header/YouMiPrefixHeader.pch";
+				INFOPLIST_FILE = MQYouMiDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YouMi.MQYouMiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48FCDAB224839A9D00389FD9 /* Build configuration list for PBXProject "MQYouMiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48FCDACE24839AA200389FD9 /* Debug */,
+				48FCDACF24839AA200389FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48FCDAD024839AA200389FD9 /* Build configuration list for PBXNativeTarget "MQYouMiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48FCDAD124839AA200389FD9 /* Debug */,
+				48FCDAD224839AA200389FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48FCDAAF24839A9D00389FD9 /* Project object */;
+}
